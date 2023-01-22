@@ -1,0 +1,30 @@
+# GRUB2 Lyoko theme By Achencraft
+# Designed for any resolution
+# resolution preference 1920x1080
+
+# Global Property
+title-text: ""
+title-color: "#ffffff"
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Gunship Regular 18"
+
+# Show the boot menu
++ boot_menu {
+  left = 550
+  top = 250
+  width = 570
+  height = 508
+  item_font = "Gunship Regular 18"
+  item_color = "#cccccc"
+  selected_item_color = "#ff0000"
+  selected_item_font = "Gunship Regular 18"
+  item_height = 127
+  item_spacing = 0
+  item_icon_space = 20
+  icon_width = 50
+  icon_height = 50
+  selected_item_pixmap_style = "select_*.png"
+}
+
+
